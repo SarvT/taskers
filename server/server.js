@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const apiRoute = require("./verify.route.js")
+const apiRoute = require("./api/verify.route")
 const serverless = require("serverless-http");
 
 dotenv.config();
